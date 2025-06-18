@@ -1,6 +1,12 @@
 {
+
   "name": "aplicaciones-web",
   "version": "1.0.0",
+
+  "name": "aplicaciones_i4",
+  "version": "1.0.0",
+  "description": "",
+
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
@@ -10,10 +16,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+
   "description": "",
   "dependencies": {
     "@types/jsonwebtoken": "^9.0.9",
     "bcrypt": "^6.0.0",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/jsonwebtoken": "^9.0.9",
+    "bcryptjs": "^3.0.2",
+    //a79b98c54feac8e0a6f86c2cfd7ad0ca17a16821
     "dayjs": "^1.11.13",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
@@ -22,11 +34,17 @@
     "node-cache": "^5.1.2"
   },
   "devDependencies": {
+
     "@types/bcrypt": "^5.0.2",
     "@types/express": "^5.0.2",
     "@types/morgan": "^1.9.9",
     "@types/node": "^22.15.19",
     "i": "^0.3.7",
+
+    "@types/express": "^5.0.2",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.15.19",
+  //a79b98c54feac8e0a6f86c2cfd7ad0ca17a16821
     "jsonwebtoken": "^9.0.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.8.3"
